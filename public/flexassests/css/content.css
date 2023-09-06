@@ -1,0 +1,30 @@
+.content{
+    position: relative;
+    top:110px;
+right:245px;
+    width: calc(100% - 255px);
+    background-color: white;
+    box-shadow: 12px 10px 25px 2px rgba(0,0,0,.2);
+}
+th {text-align: center !important;}
+td{text-align: center !important;}
+@media screen and (max-width: 760px) {
+    .content {
+right: 0px;
+    width: 100%}
+}
+
+@media screen and (max-width: 400px){
+
+#addButton{
+}
+}
+
+@keyframes change-color {
+    from{
+        background-color: #9ca3af;
+    }
+    to{
+        background-color: #0dcaf0;
+    }
+}
