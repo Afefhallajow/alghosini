@@ -1,0 +1,14 @@
+.content{
+   direction: ltr;
+    position: relative;
+    top:110px;
+left:245px;
+    width: calc(100% - 250px);
+    background-color: #9ca3af;
+
+}
+@media screen and (max-width: 760px) {
+    .content {
+
+    width: 100%}
+}
